@@ -135,7 +135,7 @@ create table tbl_colaborador (
     data_saida date not null,
     status_colaborador varchar (20) not null,
     
-	constraint FK_Cargo_Colaborador foreign key (id_cargo) references tbl_cargo (id_cargo)
+    constraint FK_Cargo_Colaborador foreign key (id_cargo) references tbl_cargo (id_cargo)
 );
 
 
